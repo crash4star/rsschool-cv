@@ -1,5 +1,5 @@
 1. Nikita, Palko
-2. Skype: nikitok36, Telegram: @nickreator
+2. Skype: nikitok36, Telegram: @nickreator, Discord: crash4star
 3. Like to create user interfaces, starting from design and ending with a full implementation. I want to learn how to work with frameworks and libraries, to write flexible code and further use it. I am currently developing training interactive courses using HTML, CSS, JS (Vanilla).
 4. Skills HTML, CSS, JS(Vanilla), Less, Git, Photoshop, Illutrator)
 5. Cannot provide because it is an in-house development
