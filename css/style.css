@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.wrapper__info {
+    max-width: 1024px;
+    min-width: 550px;
+    margin: 0 auto;
+}
+
+.info__headline {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.info-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.info-list__item {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px 5px rgba(0,0,0,0.07);
+    border-radius: 5px;
+}
+
+.info-list__item--title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    box-shadow: none;
+}
+
+.info-list__item-user-image {
+    margin-right: 30px;
+}
+
+.info-list__item-desc {
+    display: block;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #59a1ff;
+}
+
+.info-list__item-paragraph {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+.info-list--inner-middle__item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 35px;
+}
+
+.info-list--inner-middle__item:last-child {
+    margin-bottom: 0;
+}
+
+.info-list--inner-middle__item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.info-list--inner-middle__item--academy,
+.info-list--inner-middle__item--udemy,
+.info-list--inner-middle__item--gid {
+    position: relative;
+}
+
+.info-list__item-paragraph--academy:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #bbd8ff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.info-list__item-paragraph--udemy:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #bbd8ff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.info-list__item-paragraph--gid:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #bbd8ff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.info-list--inner-small {
+    padding-left: 10px;
+}
+
+.info-list--inner-small__item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.info-list--inner-small__item:last-child {
+    margin-bottom: 0;
+}
+
+.info-list--inner-small__item:first-child {
+    margin-top: 10px;
+}
+
+.info-list--inner-small__item:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -15px;
+    width: 10px;
+    height: 2px;
+    background-color: #777777;
+    border-radius: 10px;
+}
+
+.info-list--inner-small__item-paragraph {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.info-list__item-paragraph--user-name {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+
+/* modify */
+
+.info-list--inner-middle__item-skype:before {
+    background-image: url('../img/icon-skype.png');
+}
+
+.info-list--inner-middle__item-telegram:before {
+    background-image: url('../img/icon-telegram.png');
+}
+
+.info-list--inner-middle__item-discord:before {
+    background-image: url('../img/icon-discord.png');
+    background-size: 110%;
+}
+
+.info-list--inner-middle__item-html:before {
+    background-image: url('../img/icon-html.png');
+}
+
+.info-list--inner-middle__item-css:before {
+    background-image: url('../img/icon-css.png');
+    background-size: 120%;
+}
+
+.info-list--inner-middle__item-less:before {
+    background-image: url('../img/icon-less.png');
+}
+
+.info-list--inner-middle__item-vanilla:before {
+    background-image: url('../img/icon-javascript.png');
+}
+
+.info-list--inner-middle__item-ps:before {
+    background-image: url('../img/icon-photoshop.png');
+}
+
+.info-list--inner-middle__item-ai:before {
+    background-image: url('../img/icon-illustrator.png');
+}
+
+.info-list--inner-middle__item--academy:before {
+    background-image: url('../img/icon-academy.png');
+    background-size: 110%;
+}
+
+.info-list--inner-middle__item--udemy:before {
+    background-image: url('../img/icon-udemy.png');
+}
+
+.info-list--inner-middle__item--gid:before {
+    background-image: url('../img/icon-gid.png');
+}
